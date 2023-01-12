@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CA93C48296F15C40021E1BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA93C47296F15C40021E1BD /* AppDelegate.swift */; };
+		3CA93C4A296F15C40021E1BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA93C49296F15C40021E1BD /* SceneDelegate.swift */; };
+		3CA93C4F296F15C40021E1BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CA93C4D296F15C40021E1BD /* Main.storyboard */; };
+		3CA93C51296F15C60021E1BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CA93C50296F15C60021E1BD /* Assets.xcassets */; };
+		3CA93C54296F15C60021E1BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CA93C52296F15C60021E1BD /* LaunchScreen.storyboard */; };
+		3CA93C5F296F15C60021E1BD /* marvel_openbankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA93C5E296F15C60021E1BD /* marvel_openbankTests.swift */; };
+		3CA93C69296F15C60021E1BD /* marvel_openbankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA93C68296F15C60021E1BD /* marvel_openbankUITests.swift */; };
+		3CA93C6B296F15C60021E1BD /* marvel_openbankUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA93C6A296F15C60021E1BD /* marvel_openbankUITestsLaunchTests.swift */; };
+		3CA93C7C296F1D1B0021E1BD /* CharacterDataWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA93C7B296F1D1B0021E1BD /* CharacterDataWrapper.swift */; };
+		3CA93C7E296F1F440021E1BD /* CharacterDataContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA93C7D296F1F440021E1BD /* CharacterDataContainer.swift */; };
+		3CA93C80296F1FE80021E1BD /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA93C7F296F1FE80021E1BD /* Character.swift */; };
+		3CA93C82296F20910021E1BD /* Url.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA93C81296F20910021E1BD /* Url.swift */; };
+		3CA93C84296F209D0021E1BD /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA93C83296F209D0021E1BD /* Image.swift */; };
+		3CA93C86296F20AA0021E1BD /* ComicList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA93C85296F20AA0021E1BD /* ComicList.swift */; };
+		3CA93C8A296F20E10021E1BD /* StoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA93C87296F20E10021E1BD /* StoryList.swift */; };
+		3CA93C8B296F20E10021E1BD /* EventList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA93C88296F20E10021E1BD /* EventList.swift */; };
+		3CA93C8C296F20E10021E1BD /* SeriesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA93C89296F20E10021E1BD /* SeriesList.swift */; };
+		3CA93C91296F22E60021E1BD /* SeriesSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA93C8D296F22E60021E1BD /* SeriesSummary.swift */; };
+		3CA93C92296F22E60021E1BD /* EventSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA93C8E296F22E60021E1BD /* EventSummary.swift */; };
+		3CA93C93296F22E60021E1BD /* StorySummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA93C8F296F22E60021E1BD /* StorySummary.swift */; };
+		3CA93C94296F22E60021E1BD /* ComicSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA93C90296F22E60021E1BD /* ComicSummary.swift */; };
+		3CA93C96296F254A0021E1BD /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA93C95296F254A0021E1BD /* APIManager.swift */; };
+		3CA93C9B297037B20021E1BD /* CharactersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA93C9A297037B20021E1BD /* CharactersTableViewController.swift */; };
+		3CA93C9D297037D70021E1BD /* CharacterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA93C9C297037D70021E1BD /* CharacterTableViewCell.swift */; };
+		3CA93CA029703D1B0021E1BD /* UIImageView+Url.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA93C9F29703D1B0021E1BD /* UIImageView+Url.swift */; };
+		3CA93CA229704AE70021E1BD /* CharacterDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA93CA129704AE70021E1BD /* CharacterDetailTableViewController.swift */; };
+		3CA93CA4297050B10021E1BD /* CharacterHeaderDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA93CA3297050B10021E1BD /* CharacterHeaderDetailViewController.swift */; };
+		3CA93CA6297051730021E1BD /* String+Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA93CA5297051730021E1BD /* String+Crypto.swift */; };
+		3CA93CAA297065790021E1BD /* URLSessionExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA93CA9297065790021E1BD /* URLSessionExecutor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CA93C5B296F15C60021E1BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CA93C3C296F15C40021E1BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CA93C43296F15C40021E1BD;
+			remoteInfo = "marvel-openbank";
+		};
+		3CA93C65296F15C60021E1BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CA93C3C296F15C40021E1BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CA93C43296F15C40021E1BD;
+			remoteInfo = "marvel-openbank";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CA93C44296F15C40021E1BD /* marvel-openbank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "marvel-openbank.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CA93C47296F15C40021E1BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3CA93C49296F15C40021E1BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3CA93C4E296F15C40021E1BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CA93C50296F15C60021E1BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CA93C53296F15C60021E1BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3CA93C55296F15C60021E1BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CA93C5A296F15C60021E1BD /* marvel-openbankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "marvel-openbankTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CA93C5E296F15C60021E1BD /* marvel_openbankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = marvel_openbankTests.swift; sourceTree = "<group>"; };
+		3CA93C64296F15C60021E1BD /* marvel-openbankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "marvel-openbankUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CA93C68296F15C60021E1BD /* marvel_openbankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = marvel_openbankUITests.swift; sourceTree = "<group>"; };
+		3CA93C6A296F15C60021E1BD /* marvel_openbankUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = marvel_openbankUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3CA93C7B296F1D1B0021E1BD /* CharacterDataWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDataWrapper.swift; sourceTree = "<group>"; };
+		3CA93C7D296F1F440021E1BD /* CharacterDataContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDataContainer.swift; sourceTree = "<group>"; };
+		3CA93C7F296F1FE80021E1BD /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		3CA93C81296F20910021E1BD /* Url.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Url.swift; sourceTree = "<group>"; };
+		3CA93C83296F209D0021E1BD /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		3CA93C85296F20AA0021E1BD /* ComicList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicList.swift; sourceTree = "<group>"; };
+		3CA93C87296F20E10021E1BD /* StoryList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryList.swift; sourceTree = "<group>"; };
+		3CA93C88296F20E10021E1BD /* EventList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventList.swift; sourceTree = "<group>"; };
+		3CA93C89296F20E10021E1BD /* SeriesList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeriesList.swift; sourceTree = "<group>"; };
+		3CA93C8D296F22E60021E1BD /* SeriesSummary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeriesSummary.swift; sourceTree = "<group>"; };
+		3CA93C8E296F22E60021E1BD /* EventSummary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventSummary.swift; sourceTree = "<group>"; };
+		3CA93C8F296F22E60021E1BD /* StorySummary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorySummary.swift; sourceTree = "<group>"; };
+		3CA93C90296F22E60021E1BD /* ComicSummary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComicSummary.swift; sourceTree = "<group>"; };
+		3CA93C95296F254A0021E1BD /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		3CA93C9A297037B20021E1BD /* CharactersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharactersTableViewController.swift; sourceTree = "<group>"; };
+		3CA93C9C297037D70021E1BD /* CharacterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTableViewCell.swift; sourceTree = "<group>"; };
+		3CA93C9F29703D1B0021E1BD /* UIImageView+Url.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Url.swift"; sourceTree = "<group>"; };
+		3CA93CA129704AE70021E1BD /* CharacterDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailTableViewController.swift; sourceTree = "<group>"; };
+		3CA93CA3297050B10021E1BD /* CharacterHeaderDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterHeaderDetailViewController.swift; sourceTree = "<group>"; };
+		3CA93CA5297051730021E1BD /* String+Crypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Crypto.swift"; sourceTree = "<group>"; };
+		3CA93CA9297065790021E1BD /* URLSessionExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionExecutor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CA93C41296F15C40021E1BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CA93C57296F15C60021E1BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CA93C61296F15C60021E1BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CA93C3B296F15C40021E1BD = {
+			isa = PBXGroup;
+			children = (
+				3CA93C46296F15C40021E1BD /* marvel-openbank */,
+				3CA93C5D296F15C60021E1BD /* marvel-openbankTests */,
+				3CA93C67296F15C60021E1BD /* marvel-openbankUITests */,
+				3CA93C45296F15C40021E1BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CA93C45296F15C40021E1BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CA93C44296F15C40021E1BD /* marvel-openbank.app */,
+				3CA93C5A296F15C60021E1BD /* marvel-openbankTests.xctest */,
+				3CA93C64296F15C60021E1BD /* marvel-openbankUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CA93C46296F15C40021E1BD /* marvel-openbank */ = {
+			isa = PBXGroup;
+			children = (
+				3CA93C79296F1CCD0021E1BD /* API */,
+				3CA93C7A296F1CCD0021E1BD /* Model */,
+				3CA93C9E29703CF00021E1BD /* Extensions */,
+				3CA93C99297037B20021E1BD /* UI */,
+				3CA93C47296F15C40021E1BD /* AppDelegate.swift */,
+				3CA93C49296F15C40021E1BD /* SceneDelegate.swift */,
+				3CA93C4D296F15C40021E1BD /* Main.storyboard */,
+				3CA93C50296F15C60021E1BD /* Assets.xcassets */,
+				3CA93C52296F15C60021E1BD /* LaunchScreen.storyboard */,
+				3CA93C55296F15C60021E1BD /* Info.plist */,
+			);
+			path = "marvel-openbank";
+			sourceTree = "<group>";
+		};
+		3CA93C5D296F15C60021E1BD /* marvel-openbankTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CA93C5E296F15C60021E1BD /* marvel_openbankTests.swift */,
+			);
+			path = "marvel-openbankTests";
+			sourceTree = "<group>";
+		};
+		3CA93C67296F15C60021E1BD /* marvel-openbankUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CA93C68296F15C60021E1BD /* marvel_openbankUITests.swift */,
+				3CA93C6A296F15C60021E1BD /* marvel_openbankUITestsLaunchTests.swift */,
+			);
+			path = "marvel-openbankUITests";
+			sourceTree = "<group>";
+		};
+		3CA93C79296F1CCD0021E1BD /* API */ = {
+			isa = PBXGroup;
+			children = (
+				3CA93C95296F254A0021E1BD /* APIManager.swift */,
+				3CA93CA9297065790021E1BD /* URLSessionExecutor.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		3CA93C7A296F1CCD0021E1BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3CA93C7B296F1D1B0021E1BD /* CharacterDataWrapper.swift */,
+				3CA93C7D296F1F440021E1BD /* CharacterDataContainer.swift */,
+				3CA93C7F296F1FE80021E1BD /* Character.swift */,
+				3CA93C81296F20910021E1BD /* Url.swift */,
+				3CA93C83296F209D0021E1BD /* Image.swift */,
+				3CA93C85296F20AA0021E1BD /* ComicList.swift */,
+				3CA93C88296F20E10021E1BD /* EventList.swift */,
+				3CA93C89296F20E10021E1BD /* SeriesList.swift */,
+				3CA93C87296F20E10021E1BD /* StoryList.swift */,
+				3CA93C90296F22E60021E1BD /* ComicSummary.swift */,
+				3CA93C8E296F22E60021E1BD /* EventSummary.swift */,
+				3CA93C8D296F22E60021E1BD /* SeriesSummary.swift */,
+				3CA93C8F296F22E60021E1BD /* StorySummary.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3CA93C99297037B20021E1BD /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				3CA93C9A297037B20021E1BD /* CharactersTableViewController.swift */,
+				3CA93C9C297037D70021E1BD /* CharacterTableViewCell.swift */,
+				3CA93CA129704AE70021E1BD /* CharacterDetailTableViewController.swift */,
+				3CA93CA3297050B10021E1BD /* CharacterHeaderDetailViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		3CA93C9E29703CF00021E1BD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3CA93CA5297051730021E1BD /* String+Crypto.swift */,
+				3CA93C9F29703D1B0021E1BD /* UIImageView+Url.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CA93C43296F15C40021E1BD /* marvel-openbank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CA93C6E296F15C60021E1BD /* Build configuration list for PBXNativeTarget "marvel-openbank" */;
+			buildPhases = (
+				3CA93C40296F15C40021E1BD /* Sources */,
+				3CA93C41296F15C40021E1BD /* Frameworks */,
+				3CA93C42296F15C40021E1BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "marvel-openbank";
+			productName = "marvel-openbank";
+			productReference = 3CA93C44296F15C40021E1BD /* marvel-openbank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CA93C59296F15C60021E1BD /* marvel-openbankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CA93C71296F15C60021E1BD /* Build configuration list for PBXNativeTarget "marvel-openbankTests" */;
+			buildPhases = (
+				3CA93C56296F15C60021E1BD /* Sources */,
+				3CA93C57296F15C60021E1BD /* Frameworks */,
+				3CA93C58296F15C60021E1BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CA93C5C296F15C60021E1BD /* PBXTargetDependency */,
+			);
+			name = "marvel-openbankTests";
+			productName = "marvel-openbankTests";
+			productReference = 3CA93C5A296F15C60021E1BD /* marvel-openbankTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CA93C63296F15C60021E1BD /* marvel-openbankUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CA93C74296F15C60021E1BD /* Build configuration list for PBXNativeTarget "marvel-openbankUITests" */;
+			buildPhases = (
+				3CA93C60296F15C60021E1BD /* Sources */,
+				3CA93C61296F15C60021E1BD /* Frameworks */,
+				3CA93C62296F15C60021E1BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CA93C66296F15C60021E1BD /* PBXTargetDependency */,
+			);
+			name = "marvel-openbankUITests";
+			productName = "marvel-openbankUITests";
+			productReference = 3CA93C64296F15C60021E1BD /* marvel-openbankUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CA93C3C296F15C40021E1BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					3CA93C43296F15C40021E1BD = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					3CA93C59296F15C60021E1BD = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 3CA93C43296F15C40021E1BD;
+					};
+					3CA93C63296F15C60021E1BD = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 3CA93C43296F15C40021E1BD;
+					};
+				};
+			};
+			buildConfigurationList = 3CA93C3F296F15C40021E1BD /* Build configuration list for PBXProject "marvel-openbank" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CA93C3B296F15C40021E1BD;
+			productRefGroup = 3CA93C45296F15C40021E1BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CA93C43296F15C40021E1BD /* marvel-openbank */,
+				3CA93C59296F15C60021E1BD /* marvel-openbankTests */,
+				3CA93C63296F15C60021E1BD /* marvel-openbankUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CA93C42296F15C40021E1BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CA93C54296F15C60021E1BD /* LaunchScreen.storyboard in Resources */,
+				3CA93C51296F15C60021E1BD /* Assets.xcassets in Resources */,
+				3CA93C4F296F15C40021E1BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CA93C58296F15C60021E1BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CA93C62296F15C60021E1BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CA93C40296F15C40021E1BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CA93C86296F20AA0021E1BD /* ComicList.swift in Sources */,
+				3CA93C8B296F20E10021E1BD /* EventList.swift in Sources */,
+				3CA93CA229704AE70021E1BD /* CharacterDetailTableViewController.swift in Sources */,
+				3CA93C84296F209D0021E1BD /* Image.swift in Sources */,
+				3CA93C9B297037B20021E1BD /* CharactersTableViewController.swift in Sources */,
+				3CA93C7C296F1D1B0021E1BD /* CharacterDataWrapper.swift in Sources */,
+				3CA93C91296F22E60021E1BD /* SeriesSummary.swift in Sources */,
+				3CA93C82296F20910021E1BD /* Url.swift in Sources */,
+				3CA93C92296F22E60021E1BD /* EventSummary.swift in Sources */,
+				3CA93CA029703D1B0021E1BD /* UIImageView+Url.swift in Sources */,
+				3CA93C94296F22E60021E1BD /* ComicSummary.swift in Sources */,
+				3CA93C8C296F20E10021E1BD /* SeriesList.swift in Sources */,
+				3CA93CAA297065790021E1BD /* URLSessionExecutor.swift in Sources */,
+				3CA93C48296F15C40021E1BD /* AppDelegate.swift in Sources */,
+				3CA93C9D297037D70021E1BD /* CharacterTableViewCell.swift in Sources */,
+				3CA93C80296F1FE80021E1BD /* Character.swift in Sources */,
+				3CA93CA4297050B10021E1BD /* CharacterHeaderDetailViewController.swift in Sources */,
+				3CA93C96296F254A0021E1BD /* APIManager.swift in Sources */,
+				3CA93C4A296F15C40021E1BD /* SceneDelegate.swift in Sources */,
+				3CA93C7E296F1F440021E1BD /* CharacterDataContainer.swift in Sources */,
+				3CA93C93296F22E60021E1BD /* StorySummary.swift in Sources */,
+				3CA93C8A296F20E10021E1BD /* StoryList.swift in Sources */,
+				3CA93CA6297051730021E1BD /* String+Crypto.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CA93C56296F15C60021E1BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CA93C5F296F15C60021E1BD /* marvel_openbankTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CA93C60296F15C60021E1BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CA93C69296F15C60021E1BD /* marvel_openbankUITests.swift in Sources */,
+				3CA93C6B296F15C60021E1BD /* marvel_openbankUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CA93C5C296F15C60021E1BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CA93C43296F15C40021E1BD /* marvel-openbank */;
+			targetProxy = 3CA93C5B296F15C60021E1BD /* PBXContainerItemProxy */;
+		};
+		3CA93C66296F15C60021E1BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CA93C43296F15C40021E1BD /* marvel-openbank */;
+			targetProxy = 3CA93C65296F15C60021E1BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3CA93C4D296F15C40021E1BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CA93C4E296F15C40021E1BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CA93C52296F15C60021E1BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CA93C53296F15C60021E1BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CA93C6C296F15C60021E1BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CA93C6D296F15C60021E1BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CA93C6F296F15C60021E1BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6N2SGV8Z8B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "marvel-openbank/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "isaac.gil.marvel-openbank";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CA93C70296F15C60021E1BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6N2SGV8Z8B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "marvel-openbank/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "isaac.gil.marvel-openbank";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3CA93C72296F15C60021E1BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6N2SGV8Z8B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "isaac.gil.marvel-openbankTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/marvel-openbank.app/marvel-openbank";
+			};
+			name = Debug;
+		};
+		3CA93C73296F15C60021E1BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6N2SGV8Z8B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "isaac.gil.marvel-openbankTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/marvel-openbank.app/marvel-openbank";
+			};
+			name = Release;
+		};
+		3CA93C75296F15C60021E1BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6N2SGV8Z8B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "isaac.gil.marvel-openbankUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "marvel-openbank";
+			};
+			name = Debug;
+		};
+		3CA93C76296F15C60021E1BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6N2SGV8Z8B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "isaac.gil.marvel-openbankUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "marvel-openbank";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CA93C3F296F15C40021E1BD /* Build configuration list for PBXProject "marvel-openbank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CA93C6C296F15C60021E1BD /* Debug */,
+				3CA93C6D296F15C60021E1BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CA93C6E296F15C60021E1BD /* Build configuration list for PBXNativeTarget "marvel-openbank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CA93C6F296F15C60021E1BD /* Debug */,
+				3CA93C70296F15C60021E1BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CA93C71296F15C60021E1BD /* Build configuration list for PBXNativeTarget "marvel-openbankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CA93C72296F15C60021E1BD /* Debug */,
+				3CA93C73296F15C60021E1BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CA93C74296F15C60021E1BD /* Build configuration list for PBXNativeTarget "marvel-openbankUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CA93C75296F15C60021E1BD /* Debug */,
+				3CA93C76296F15C60021E1BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CA93C3C296F15C40021E1BD /* Project object */;
+}
